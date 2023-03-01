@@ -122,11 +122,11 @@ h1,h2 {
 }
 
 p {
-  position: absolute;
-  text-align: center;
+  /* position: absolute;
   top: 60%;
   left: 47%;
-  transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%); */
+  text-align: center;
   font-weight: bold;
 }
 

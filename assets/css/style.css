@@ -117,22 +117,21 @@ h1,h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 180px;
+  padding: 200px;
   
 }
 
 p {
-  /* position: absolute;
-  top: 60%;
-  left: 47%;
-  transform: translate(-40%, -40%); */
+  position: absolute;
+  top: 48%;
+  left: 46%;
+  transform: translate(-40%, -40%);
   text-align: center;
   font-weight: bold;
 }
 
 img {
   transition: transform 0.3s ease;
-  
   
 }
 

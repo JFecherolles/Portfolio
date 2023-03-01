@@ -1,0 +1,141 @@
+body{
+    /* background-color: black; */
+    margin : 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0px;
+    background-image: url(../images/Portfolio.jpg)
+}
+
+  nav {
+    margin: 15px auto 0 ;
+    position: relative;
+    width: 570px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    
+  }
+  nav a {
+    line-height: 50px;
+    color: white;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: blanchedalmond;
+    cursor: pointer;
+  }
+  nav .animation {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 50px;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1){
+    width: 100px;
+  }
+  a:nth-child(2){
+    width: 110px;
+  }
+  a:nth-child(3){
+    width: 100px;
+  }
+  a:nth-child(4){
+    width: 150px;
+  }
+  a:nth-child(5){
+    width: 100px;
+  }
+  nav a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #4285F4;
+  }
+  nav a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+    background-color: #E94235;
+  }
+  nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+    background-color: #FABB05;
+  }
+  nav a:nth-child(4):hover~.animation {
+    width: 150px;
+    left: 310px;
+    background-color: #34A853;
+  }
+  
+  nav a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 450px;
+    background-color: fuchsia;
+  }
+
+  .main-header__links {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+
+
+  .menu,
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+/* .menu__links:hover {
+    color: yellow;
+} */
+
+.socials__item {
+    margin-left: 1rem;
+    list-style-type: none;
+
+}
+
+.socials__icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .4rem;
+}
+
+h1,h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 160px;
+  
+}
+
+p {
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  left: 47%;
+  transform: translate(-40%, -40%);
+  font-weight: bold;
+}
+
+img {
+  transition: transform 0.3s ease;
+  
+  
+}
+
+img:hover {
+  transform: scale(1.5);
+}

@@ -122,12 +122,13 @@ h1,h2 {
 }
 
 p {
-  position: absolute;
+  /* position: absolute;
   top: 48%;
   left: 46%;
-  transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%); */
   text-align: center;
   font-weight: bold;
+  margin-top: -150px;
 }
 
 img {

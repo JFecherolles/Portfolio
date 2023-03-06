@@ -130,6 +130,85 @@ img:hover {
 }
 
 
+/* Responsives */
+/* Pour les écrans ayant une largeur maximale de 768px */
+@media only screen and (max-width: 768px) {
+    nav {
+    width: 100%;
+    margin: 15px 0 0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0;
+    margin: 15px 0 0;
+    box-sizing: border-box;
+  }
+  nav a {
+    font-size: 14px;
+    display: inline-block;
+  }
+  a:nth-child(1){
+    width: 80px;
+  }
+  a:nth-child(2){
+    width: 90px;
+  }
+  a:nth-child(3){
+    width: 80px;
+  }
+  a:nth-child(4){
+    width: 120px;
+  }
+  a:nth-child(5){
+    width: 100px;
+  }
   
+}
 
-
+/* Pour les écrans ayant une largeur maximale de 480px */
+@media (max-width: 480px) {
+  nav {
+    height: auto;
+    margin: 15px 0 0;
+    border-radius: 0;
+  }
+  nav a {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  nav .animation {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 50px;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1){
+    width: 100%;
+  }
+  a:nth-child(2){
+    width: 100%;
+  }
+  a:nth-child(3){
+    width: 100%;
+  }
+  a:nth-child(4){
+    width: 100%;
+  }
+  a:nth-child(5){
+    width: 100%;
+  }
+  h1, h2 {
+    padding: 100px;
+  }
+  p {
+    margin-top: -100px;
+  }
+  img {
+    max-width: 100%;
+  }
+}

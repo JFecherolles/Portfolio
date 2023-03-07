@@ -161,8 +161,41 @@ img:hover {
   a:nth-child(5){
     width: 100px;
   }
+
+  h1 {
+    padding: 100px;
+    margin-top: -110px;
+    font-size: 18px;
+    margin-left: -7%;
+  }
+  h2 {
+    padding: 100px;
+    margin-top: -110px;
+    font-size: 18px;
+    margin-left: -3%;
+  }
   
+  p {
+    margin-top: -110px;
+    max-width: 100%;
+    font-size: 6px;
+    margin-left: -2%;
 }
+
+img {
+  max-width: 100%;
+}
+
+.socials__icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  margin-left: -165%;
+}
+  }
+
+  
+
 
 /* Pour les écrans ayant une largeur maximale de 480px */
 @media (max-width: 480px) {

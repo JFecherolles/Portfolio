@@ -1,37 +1,62 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<!-- titre de la page - titre présent dans l'onglet -->
-		<title>Portfolio</title>
-		<link rel="stylesheet" href="./assets/css/style.css" />
-                <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-	</head>
-	<body>
-		<header class="main-header">
-            
-              <div class="main-header__links">
-                <nav>
-                    <!-- partie haute centrle de la page -->
-                            <a class="link menu__links" href="./index.html">Home</a>
-                        
-                            <a class="link menu__links" href="./about.html">About</a>
-                        
-                            <a class="link menu__links" href="./assets/images/CV fecherolles Jerome.pdf">Cv</a>
-                        
-                            <a class="link menu__links" href="./contact.html">Contact</a>
-                        
-                            <a class="link menu__links" href="./projets.html">Projets</a>
-                            
-                            <div class="animation"></div>
-                    
-                </nav>
-             </div>
-        </header>
-            <div>
-		
-               <h1>Fécherolles Jérôme<br/>Développeur Front-end spécialité React </h1>
 
-            </div>
-        </body>
+<head>
+	<meta charset="utf-8" />
+	<!-- titre de la page - titre présent dans l'onglet -->
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<div class="d-flex justify-content-end">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent text-center">
+
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link bg-gradient bg-primary" href="./index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bg-gradient bg-danger" href="./about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bg-gradient bg-success"
+							href="./assets/images/CV fecherolles Jerome.pdf">CV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bg-gradient bg-warning " href="./contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link bg-gradient bg-custom" href="./projets.html">Projets</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="d-flex align-items-center justify-content-center" style="height: 70vh;">
+		<div class="text-center">
+		<h1>Fécherolles Jérôme</h1>
+		<h2>Développeur Front-end spécialité React</h2>
+	</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+	</script>
+
+</body>
+
 </html>

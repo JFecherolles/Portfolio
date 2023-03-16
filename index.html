@@ -7,56 +7,49 @@
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
 	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
 
 <body>
+	<header>
 
-	<div class="d-flex justify-content-end">
-		<nav class="navbar navbar-expand-lg navbar-light bg-transparent text-center">
+		<div class="menu_toggle"></div>
 
+		<ul class="navbar">
+			<li>
+				<a href="./index.html">Home</a>
+			</li>
+			<li>
+				<a href="./about.html">About</a>
+			</li>
+			<li class="cv_li">
+				<a href="./assets/images/CV fecherolles Jerome.pdf">CV</a>
+			</li>
+			<li>
+				<a href="./contact.html">Contact</a>
+			</li>
+			<li>
+				<a href="./projets.html">Projets</a>
+			</li>
+		</ul>
+	</header>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link bg-gradient bg-primary" href="./index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link bg-gradient bg-danger" href="./about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link bg-gradient bg-success"
-							href="./assets/images/CV fecherolles Jerome.pdf">CV</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link bg-gradient bg-warning " href="./contact.html">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link bg-gradient bg-custom" href="./projets.html">Projets</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+	<section class="description">
+		<div class="left">
 
-	<div class="d-flex align-items-center justify-content-center" style="height: 70vh;">
-		<div class="text-center">
-		<h1>Fécherolles Jérôme</h1>
-		<h2>Développeur Front-end spécialité React</h2>
-	</div>
-	</div>
+			<h1>Fécherolles Jérôme</h1>
+			<p>Développeur Front-end spécialité React</p>
+		</div>
+
+		<div class="right">
+			<img src="./assets/images/mario.png" class="Mario" alt="Mario">
+		</div>
+	</section>
 
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-	</script>
 
+
+	<script src="./js/app.js"></script>
 </body>
 
 </html>

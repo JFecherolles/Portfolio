@@ -47,7 +47,11 @@ body {
   padding: 5px 8px;
  }
 
-.cv_li a , .navbar .cv_li a:hover {
+.navbar .cv_li a  {
+  color: cyan;
+}
+
+.navbar .cv_li a:hover{
   color: cyan;
 }
 

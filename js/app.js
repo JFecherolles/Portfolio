@@ -15,7 +15,7 @@ menu_toggle.onclick = function() {
 const header = document.querySelector('header');
 const title = document.querySelectorAll('.left h1, h2');
 const p = document.querySelectorAll('.left p, a');
-const img = document.querySelector('.Mario, .Yoshi, .Toad, .Luigi');
+const img = document.querySelector('.cat1, .cat2, .cat3, .cat4');
 
 
 window.addEventListener('load', () => { 
@@ -29,3 +29,5 @@ window.addEventListener('load', () => {
 
   move.play()
 });
+
+

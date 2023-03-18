@@ -100,8 +100,9 @@ body {
 }
 
 .right img {
-  height: 500px;
+  height: 360px;
 }
+
 
 /*Responsive*/
 
@@ -112,13 +113,13 @@ body {
   .left {
     background-color: rgba(0,0,0,0.8);
     width: 100%;
-    padding: 30px;
+    padding: 20px;
   }
   .left h1, h2 {
-    font-style: 25px;
+    font-size: 25px;
   }
   .left p {
-    font-style: 12px;
+    font-size: 12px;
   }
  
   .right {

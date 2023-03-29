@@ -22,10 +22,10 @@ window.addEventListener('load', () => {
   const move = gsap.timeline({paused: true});
 
   move
-  .staggerFrom(header , 2 , {y:-100 , opacity:0, ease: "power2.out"}, 0.3)
-  .staggerFrom(img , 1 , {x:1000 , opacity:0, ease: "power2.out"}, 0.3)
-  .staggerFrom(title , 1 , {opacity:0, ease: "power2.out"}, 0.1)
-  .staggerFrom(p , 1 , {opacity:0, ease: "power2.out"}, 0.1)
+  .staggerFrom(header , 1 , {y:-100 , opacity:0, ease: "power2.out"}, 0.2)
+  .staggerFrom(img , 1 , {x:1000 , opacity:0, ease: "back.out(1)"}, 0.2)
+  .staggerFrom(title , 1 , {opacity:0, ease: "power1.out"}, 0.1)
+  .staggerFrom(p , 1 , {opacity:0, ease: "power1.out"}, 0.1)
 
   move.play()
 });

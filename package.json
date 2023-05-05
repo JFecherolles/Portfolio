@@ -2,5 +2,8 @@
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0"
   }
 }

@@ -39,19 +39,10 @@ body {
  }
 
  .navbar li a:hover{
-  color: #fff;
+  color: red;
  }
 
- .cv_li {
-  border: 1px solid cyan;
-  padding: 5px 8px;
- }
-
-.navbar .cv_li a  {
-  color: cyan;
-}
-
-.navbar .cv_li a:hover{
+ .navbar li.active a{
   color: cyan;
 }
 
@@ -103,6 +94,13 @@ body {
   height: 360px;
 }
 
+.footer {
+  font-size: 10px;
+  position: absolute;
+  bottom: 20px;
+  color: #999;
+}
+
 
 /*Responsive*/
 
@@ -121,6 +119,9 @@ body {
   .left p {
     font-size: 12px;
   }
+  .footer{
+    font-size: 10px;
+  }
   
  
   .right {
@@ -129,7 +130,7 @@ body {
     height: 100%;
     width: 100%;
     top: 0;
-    left: 0;
+    left: 0px;
   }
   .menu_toggle{
     z-index: 10;
@@ -184,5 +185,9 @@ body {
   header .navbar.responsive li {
     margin: 10px 0;
   }
+  .navbar li a:active {
+    color: cyan;
+  }
+  
 
 }
